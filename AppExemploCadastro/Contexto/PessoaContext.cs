@@ -145,16 +145,16 @@ namespace AppExemploCadastro.Contexto
 
                 if (linhasAfetadas > 0)
                 {
-                    MessageBox.Show("Pessoa atualizada com sucesso!");
+                    MessageBox.Show("Pessoa deletada com sucesso!");
                 }
                 else
                 {
-                    MessageBox.Show("Nenhum registro foi atualizado. Verifique o ID informado.");
+                    MessageBox.Show("Nenhum registro foi deletado. Verifique o ID informado.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao atualizar pessoa: " + ex.Message);
+                MessageBox.Show("Erro ao deletar pessoa: " + ex.Message);
             }
             finally
             {
