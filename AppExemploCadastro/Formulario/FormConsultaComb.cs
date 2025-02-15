@@ -54,7 +54,7 @@ namespace AppExemploCadastro.Formulario
 
                 PessoaContext context = new PessoaContext();
                 context.DeletarPessoa(pessoaSelec);
-                MessageBox.Show($"ID:{(pessoaSelec.Id).ToString()} " + "DELETADO COM SUCESSO!", "2ºA INF", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"ID: {(pessoaSelec.Id).ToString()} " + "DELETADO COM SUCESSO!", "2ºA INF", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtCpf.Clear(); txtEmail.Clear(); txtNome.Clear(); txtRegistroGeral.Clear();
             }
         }
