@@ -42,5 +42,17 @@ namespace AppExemploCadastro
             FormConsultaComb form = new FormConsultaComb();
             form.ShowDialog();
         }
+
+        private void btAtualizar_Click(object sender, EventArgs e)
+        {
+            FormAtualizarPessoa form = new FormAtualizarPessoa();
+            form.ShowDialog();
+        }
+
+        private void btDeletar_Click(object sender, EventArgs e)
+        {
+            FormDeletarPessoa form = new FormDeletarPessoa();
+            form.ShowDialog();
+        }
     }
 }

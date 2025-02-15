@@ -39,8 +39,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.btAtualizar = new System.Windows.Forms.Button();
-            this.btExcluir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNome
@@ -156,43 +154,11 @@
             this.label6.Text = "PESQUISAR NOME";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btAtualizar
-            // 
-            this.btAtualizar.BackColor = System.Drawing.Color.Honeydew;
-            this.btAtualizar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F);
-            this.btAtualizar.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btAtualizar.Location = new System.Drawing.Point(42, 390);
-            this.btAtualizar.Margin = new System.Windows.Forms.Padding(4);
-            this.btAtualizar.Name = "btAtualizar";
-            this.btAtualizar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btAtualizar.Size = new System.Drawing.Size(257, 48);
-            this.btAtualizar.TabIndex = 43;
-            this.btAtualizar.Text = "ATUALIZAR PESSOA";
-            this.btAtualizar.UseVisualStyleBackColor = false;
-            this.btAtualizar.Click += new System.EventHandler(this.btAtualizar_Click);
-            // 
-            // btExcluir
-            // 
-            this.btExcluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btExcluir.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F);
-            this.btExcluir.ForeColor = System.Drawing.Color.Firebrick;
-            this.btExcluir.Location = new System.Drawing.Point(460, 390);
-            this.btExcluir.Margin = new System.Windows.Forms.Padding(4);
-            this.btExcluir.Name = "btExcluir";
-            this.btExcluir.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btExcluir.Size = new System.Drawing.Size(257, 48);
-            this.btExcluir.TabIndex = 44;
-            this.btExcluir.Text = "EXCLUIR PESSOA";
-            this.btExcluir.UseVisualStyleBackColor = false;
-            this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
-            // 
             // FormConsultaComb
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(756, 466);
-            this.Controls.Add(this.btExcluir);
-            this.Controls.Add(this.btAtualizar);
+            this.ClientSize = new System.Drawing.Size(756, 392);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
@@ -225,7 +191,5 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btAtualizar;
-        private System.Windows.Forms.Button btExcluir;
     }
 }

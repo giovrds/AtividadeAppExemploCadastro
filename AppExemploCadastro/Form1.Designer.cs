@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btConsultaLista = new System.Windows.Forms.Button();
             this.btConsulta = new System.Windows.Forms.Button();
             this.btLista = new System.Windows.Forms.Button();
             this.btCadastro = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btAtualizar = new System.Windows.Forms.Button();
+            this.btDeletar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label5
@@ -47,10 +50,32 @@
             this.label5.Text = "MENU";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(13, 475);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(764, 42);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Giovanna Rodrigues de Souza - 2ºA Informática";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(13, 517);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(764, 42);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Dhuliana - 2ºA Informática";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btConsultaLista
             // 
             this.btConsultaLista.Image = global::AppExemploCadastro.Properties.Resources.CONSULTA2;
-            this.btConsultaLista.Location = new System.Drawing.Point(507, 267);
+            this.btConsultaLista.Location = new System.Drawing.Point(507, 219);
             this.btConsultaLista.Margin = new System.Windows.Forms.Padding(4);
             this.btConsultaLista.Name = "btConsultaLista";
             this.btConsultaLista.Size = new System.Drawing.Size(156, 112);
@@ -61,7 +86,7 @@
             // btConsulta
             // 
             this.btConsulta.Image = global::AppExemploCadastro.Properties.Resources.CONSULTA;
-            this.btConsulta.Location = new System.Drawing.Point(136, 267);
+            this.btConsulta.Location = new System.Drawing.Point(136, 219);
             this.btConsulta.Margin = new System.Windows.Forms.Padding(4);
             this.btConsulta.Name = "btConsulta";
             this.btConsulta.Size = new System.Drawing.Size(156, 112);
@@ -91,22 +116,34 @@
             this.btCadastro.UseVisualStyleBackColor = true;
             this.btCadastro.Click += new System.EventHandler(this.btCadastro_Click);
             // 
-            // label1
+            // btAtualizar
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 399);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(764, 42);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Giovanna Rodrigues de Souza - 2 Informática";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btAtualizar.Location = new System.Drawing.Point(136, 360);
+            this.btAtualizar.Name = "btAtualizar";
+            this.btAtualizar.Size = new System.Drawing.Size(156, 112);
+            this.btAtualizar.TabIndex = 29;
+            this.btAtualizar.Text = "Atualizar Pessoa";
+            this.btAtualizar.UseVisualStyleBackColor = true;
+            this.btAtualizar.Click += new System.EventHandler(this.btAtualizar_Click);
+            // 
+            // btDeletar
+            // 
+            this.btDeletar.Location = new System.Drawing.Point(507, 360);
+            this.btDeletar.Name = "btDeletar";
+            this.btDeletar.Size = new System.Drawing.Size(156, 112);
+            this.btDeletar.TabIndex = 30;
+            this.btDeletar.Text = "Deletar Pessoa";
+            this.btDeletar.UseVisualStyleBackColor = true;
+            this.btDeletar.Click += new System.EventHandler(this.btDeletar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 450);
+            this.ClientSize = new System.Drawing.Size(796, 571);
+            this.Controls.Add(this.btDeletar);
+            this.Controls.Add(this.btAtualizar);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btConsultaLista);
             this.Controls.Add(this.btConsulta);
@@ -128,6 +165,9 @@
         private System.Windows.Forms.Button btConsulta;
         private System.Windows.Forms.Button btConsultaLista;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btAtualizar;
+        private System.Windows.Forms.Button btDeletar;
     }
 }
 

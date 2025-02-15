@@ -105,6 +105,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario\FormAtualizarPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\FormAtualizarPessoa.Designer.cs">
+      <DependentUpon>FormAtualizarPessoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario\FormCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,12 @@
     <Compile Include="Formulario\FormConsultaComb.Designer.cs">
       <DependentUpon>FormConsultaComb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario\FormDeletarPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\FormDeletarPessoa.Designer.cs">
+      <DependentUpon>FormDeletarPessoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario\FormLista.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\FormAtualizarPessoa.resx">
+      <DependentUpon>FormAtualizarPessoa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario\FormCadastro.resx">
       <DependentUpon>FormCadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\FormConsultaComb.resx">
       <DependentUpon>FormConsultaComb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\FormDeletarPessoa.resx">
+      <DependentUpon>FormDeletarPessoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\FormLista.resx">
       <DependentUpon>FormLista.cs</DependentUpon>
