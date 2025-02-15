@@ -69,7 +69,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(764, 42);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Dhuliana - 2ºA Informática";
+            this.label2.Text = "Dhuliana Paula de Assis Geronimo - 2ºA Informática";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btConsultaLista
